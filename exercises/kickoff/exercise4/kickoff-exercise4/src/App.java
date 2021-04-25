@@ -18,5 +18,8 @@ public class App {
 
         System.out.println("number of activities per day:");
         System.out.println(controller.showNumberOfActivitiesPerDay(list));
+
+        System.out.println("shortest activity in 90% of activities:");
+        System.out.println(controller.showShortestActivityInNinetyPercent(list));
     }
 }

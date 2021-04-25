@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class ActivityReader {
     public List<MonitoredData> read() {
         ActivityParser parser = new ActivityParser();
-        Path inputPath = Path.of("src/Activities.txt");
+        Path inputPath = Path.of("exercises/kickoff/exercise4/kickoff-exercise4/src/Activities.txt");
         List<MonitoredData> output = new ArrayList<>();
         try {
             output = Files.lines(inputPath)

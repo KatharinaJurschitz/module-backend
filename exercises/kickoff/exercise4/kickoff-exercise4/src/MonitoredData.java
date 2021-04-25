@@ -1,3 +1,4 @@
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
@@ -5,6 +6,10 @@ public class MonitoredData {
     private LocalDateTime startDay;
     private LocalDateTime endDay;
     private Activity activity;
+
+    public long getDurationInMinutes() {
+        return Duration.between(startDay, endDay).toMinutes();
+    }
 
     public MonitoredData(LocalDateTime startDay, LocalDateTime endDay, Activity activity) {
         this.startDay = startDay;
