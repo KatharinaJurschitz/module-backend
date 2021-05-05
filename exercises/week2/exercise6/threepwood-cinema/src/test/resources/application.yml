@@ -1,0 +1,13 @@
+cinema:
+  specialoffer:
+    templates:
+      - name: maleMessage
+        keyword: Mr.
+        message: --name-- male
+      - name: femaleMessage
+        keyword: Ms.
+        message: --name-- female
+      - name: privilegedMessage
+        keyword: Threepwood
+        message: --name-- privileged
+    defaultMessage: --name-- default
