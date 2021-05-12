@@ -1,0 +1,11 @@
+###
+GET http://localhost:8080/songs/electronic
+
+###
+GET http://localhost:8080/songs
+
+###
+GET http://localhost:8080/songs/son
+
+###
+GET http://localhost:8080/songs/psychedelic rock

@@ -1,0 +1,17 @@
+###
+GET localhost:8080/blabla
+
+###
+GET localhost:8080/test
+
+###
+GET localhost:8080/marco
+
+###
+GET localhost:8080/Marco
+
+###
+GET localhost:8080/
+
+###
+GET localhost:8080

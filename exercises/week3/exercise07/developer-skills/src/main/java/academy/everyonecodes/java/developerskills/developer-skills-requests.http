@@ -1,0 +1,11 @@
+###
+GET localhost:8080/developers
+
+###
+GET localhost:8080/developers/skills/Java
+
+###
+GET localhost:8080/developers/skills/Javascript
+
+###
+GET localhost:8080/developers/skills/Javascript HTML

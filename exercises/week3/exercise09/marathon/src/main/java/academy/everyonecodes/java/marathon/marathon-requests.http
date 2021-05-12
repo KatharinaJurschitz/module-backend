@@ -1,0 +1,27 @@
+###
+GET localhost:8500/runners
+
+###
+GET localhost:8500/runners/winner
+
+###
+POST localhost:8500/runners
+Content-Type: application/json
+
+{
+  "name": "Lisa",
+  "duration": "PT1H1M34S"
+}
+
+###
+POST localhost:8500/runners
+Content-Type: application/json
+
+{
+  "name": "Steve",
+  "duration": "PT0H1M34S"
+}
+
+###
+GET localhost:8500/runners/winner
+

@@ -1,0 +1,23 @@
+###
+GET localhost:8100/items
+
+###
+POST localhost:8100/items
+Content-Type: application/json
+
+{
+	"name" : "table",
+	"price": 19.95
+}
+
+###
+POST localhost:8100/items
+Content-Type: application/json
+
+{
+  "name" : "chair",
+  "price": 12.99
+}
+
+###
+GET localhost:8100/items/table

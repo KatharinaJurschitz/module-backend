@@ -1,0 +1,62 @@
+###
+POST localhost:8080/uppercase
+Content-Type: text/plain
+
+hello
+
+###
+POST localhost:8080/formula
+Content-Type: application/json
+
+3
+
+###
+POST localhost:8080/negation
+Content-Type: application/json
+
+false
+
+###
+GET localhost:8080/colors
+
+###
+POST localhost:8080/colors
+Content-Type: text/plain
+
+blue
+
+###
+POST localhost:8080/colors
+Content-Type: text/plain
+
+red
+
+###
+GET localhost:8080/colors
+
+###
+GET localhost:8080/colors/blue
+
+###
+GET localhost:8080/colors/yellow
+
+###
+PUT localhost:8080/colors/red
+Content-Type: text/plain
+
+purple
+
+###
+GET localhost:8080/colors
+
+###
+DELETE localhost:8080/colors/blue
+
+###
+GET localhost:8080/colors
+
+###
+DELETE localhost:8080/colors
+
+###
+GET localhost:8080/colors
