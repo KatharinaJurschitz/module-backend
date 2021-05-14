@@ -1,0 +1,32 @@
+###
+GET localhost:9001/uuids
+
+###
+POST localhost:9001/patients
+Content-Type: application/json
+
+{
+  "name": "Lisa",
+  "symptom": "headache"
+}
+
+###
+POST localhost:9001/patients
+Content-Type: application/json
+
+{
+  "name": "Lisa",
+  "symptom": "headache"
+}
+
+###
+POST localhost:9001/patients
+Content-Type: application/json
+
+{
+  "name": "Peter",
+  "symptom": "bullet wound"
+}
+
+###
+GET localhost:9001/uuids
