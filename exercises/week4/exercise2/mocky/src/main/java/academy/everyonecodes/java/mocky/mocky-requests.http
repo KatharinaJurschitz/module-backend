@@ -1,0 +1,11 @@
+###
+GET localhost:8080/mocky/texts/1
+
+###
+GET localhost:8080/mocky/texts/2
+
+###
+GET localhost:8080/mocky/postcards/1
+
+###
+GET localhost:8080/mocky/postcards/2

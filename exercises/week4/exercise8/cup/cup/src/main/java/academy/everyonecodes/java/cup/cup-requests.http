@@ -1,0 +1,8 @@
+###
+GET http://localhost:9001/cup
+
+###
+PUT http://localhost:9001/cup
+
+###
+DELETE http://localhost:9001/cup

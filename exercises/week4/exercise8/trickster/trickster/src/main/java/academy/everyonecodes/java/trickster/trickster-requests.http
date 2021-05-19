@@ -1,0 +1,11 @@
+###
+GET localhost:9000/play
+
+###
+GET localhost:9000/choose/0
+
+###
+GET localhost:9000/choose/1
+
+###
+GET localhost:9000/choose/2

@@ -1,0 +1,8 @@
+###
+GET http://localhost:9000/marco/something
+
+###
+GET http://localhost:9000/marco/marco
+
+###
+GET http://localhost:9000/marco/Marco

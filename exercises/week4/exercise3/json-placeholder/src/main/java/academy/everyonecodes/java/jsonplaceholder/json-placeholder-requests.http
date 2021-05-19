@@ -1,0 +1,41 @@
+###
+GET localhost:8080/posts
+
+###
+GET localhost:8080/posts/1
+
+###
+POST localhost:8080/posts
+Content-Type: application/json
+
+{
+  "title": "My title",
+  "content" : "My content",
+  "user" : 1,
+  "identifier" : 3
+}
+
+###
+POST localhost:8080/posts
+Content-Type: application/json
+
+{
+  "title": "Also my title",
+  "content" : "Also my content",
+  "user" : 2,
+  "identifier" : 5
+}
+
+###
+PUT localhost:8080/posts/1
+Content-Type: application/json
+
+{
+  "title": "Not my title",
+  "content" : "Not my content",
+  "user" : 1,
+  "identifier" : 2
+}
+
+###
+DELETE localhost:8080/posts/1
