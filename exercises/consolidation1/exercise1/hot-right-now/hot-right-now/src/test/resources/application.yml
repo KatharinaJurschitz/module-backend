@@ -1,0 +1,8 @@
+server:
+  port: 9002
+store:
+  movies:
+    - title: "test1 title"
+      synopsis: "test1 synopsis"
+    - title: "test2 title"
+      synopsis: "test2 synopsis"

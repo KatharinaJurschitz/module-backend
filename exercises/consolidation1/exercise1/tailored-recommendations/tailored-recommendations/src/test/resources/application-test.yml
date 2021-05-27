@@ -1,0 +1,8 @@
+server:
+  port: 9001
+tailoredrecommendations:
+  recommendations:
+    - userUuid: 123abc
+      movie:
+        title: test1
+        synopsis: test1

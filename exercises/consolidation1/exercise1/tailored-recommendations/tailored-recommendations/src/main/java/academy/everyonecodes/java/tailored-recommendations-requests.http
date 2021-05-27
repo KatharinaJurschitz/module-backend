@@ -1,0 +1,14 @@
+###
+GET localhost:9001/tailoredrecommendations/123abc
+
+###
+POST localhost:9001/tailoredrecommendations
+Content-Type: application/json
+
+{
+  "userUuid": "123abc",
+  "movie" :   {
+    "title": "Yes Man",
+    "synopsis": "Carl Allen (Jim Carrey) is stuck in a rut with his negative ways. Then he goes to a self-help seminar and learns to unleash the power of yes. Living in the affirmative leads him to all sorts of amazing and transforming experiences; he gets a job promotion, and even finds a new romance. But Carl finds that too much of anything, even positive thinking, is not necessarily a good thing."
+  }
+}

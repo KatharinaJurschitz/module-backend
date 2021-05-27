@@ -1,0 +1,5 @@
+###
+GET http://localhost:9000/recommendations/321cba
+
+###
+GET http://localhost:9000/recommendations/666ccc
