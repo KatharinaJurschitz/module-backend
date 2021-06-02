@@ -1,0 +1,7 @@
+server:
+  port: 9001
+users:
+  users:
+    - name: Test
+      email: test-mail
+      accountType: test account

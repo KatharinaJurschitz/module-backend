@@ -1,0 +1,23 @@
+###
+POST http://localhost:9000/itemselections
+Content-Type: application/json
+
+{
+  "userEmail": "samuel@email.com",
+  "itemName" : "item1",
+  "itemPrice": 1.0
+}
+
+###
+POST http://localhost:9000/itemselections
+Content-Type: application/json
+
+{
+  "userEmail": "lisa@email.com",
+  "itemName" : "item2",
+  "itemPrice": 1.0
+}
+
+###
+GET http://localhost:9000/summaries
+
