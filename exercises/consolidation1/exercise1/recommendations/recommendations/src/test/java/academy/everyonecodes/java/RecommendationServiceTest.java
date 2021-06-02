@@ -24,6 +24,7 @@ public class RecommendationServiceTest {
         Mockito.when(tailoredClient.getRecomms("abc123")).thenReturn(expected);
         var result = service.get("abc123");
         Mockito.verify(tailoredClient).getRecomms("abc123");
+        Mockito.verify(hotClient, Mockito.never()).getHots();
     }
 
     @Test
