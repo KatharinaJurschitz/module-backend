@@ -1,0 +1,1 @@
+SELECT OwnerId, count(*) as c FROM pets GROUP BY OwnerId ORDER BY c DESC LIMIT 1;

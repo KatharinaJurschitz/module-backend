@@ -1,0 +1,1 @@
+SELECT o.Name, p.PetName, p.Type FROM owners o, pets p WHERE o.OwnerId = p.OwnerId;
