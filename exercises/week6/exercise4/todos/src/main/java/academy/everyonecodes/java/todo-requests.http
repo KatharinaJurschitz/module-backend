@@ -1,0 +1,19 @@
+###
+GET http://localhost:9000/todos
+
+###
+GET http://localhost:9000/todos/60ca0c2fa81e7b3f1d6271b1
+
+###
+POST http://localhost:9000/todos
+Content-Type: application/json
+
+{
+  "title": "phone call"
+}
+
+###
+PUT http://localhost:9000/todos/60ca0c2fa81e7b3f1d6271b1/done
+
+###
+DELETE http://localhost:9000/todos/60ca0c2fa81e7b3f1d6271b1
