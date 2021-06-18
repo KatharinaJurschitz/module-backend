@@ -1,0 +1,35 @@
+###
+GET localhost:9003/treatments
+
+###
+GET localhost:9003/treatments/uuid1
+
+###
+GET localhost:9003/treatments/uuid2
+
+###
+GET localhost:9003/treatments/uuid3
+
+###
+POST localhost:9003/patients
+Content-Type: application/json
+
+{
+  "uuid": "uuid1",
+  "name": "name",
+  "symptoms": "symptoms",
+  "diagnosis": "diagnosis"
+
+}
+
+###
+POST localhost:9003/patients
+Content-Type: application/json
+
+{
+  "uuid": "uuid2",
+  "name": "name",
+  "symptoms": "symptoms",
+  "diagnosis": "diagnosis"
+
+}
