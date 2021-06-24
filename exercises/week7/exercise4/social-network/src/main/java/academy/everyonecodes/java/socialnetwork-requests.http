@@ -1,0 +1,24 @@
+###
+POST http://localhost:9100/persons
+Content-Type: application/json
+
+{
+  "name": "James"
+}
+
+###
+POST http://localhost:9100/persons
+Content-Type: application/json
+
+{
+  "name": "Sirius"
+}
+
+###
+GET http://localhost:9100/persons
+
+###
+PUT http://localhost:9100/persons/1/friend/2
+
+###
+PUT http://localhost:9100/persons/1/unfriend/2

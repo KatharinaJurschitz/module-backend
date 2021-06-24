@@ -1,0 +1,11 @@
+###
+GET http://localhost:9000/films
+
+###
+POST http://localhost:9000/films
+Content-Type: application/json
+
+{
+  "name": "Arrival",
+  "rating": 5
+}

@@ -1,0 +1,41 @@
+###
+GET http://localhost:8100/contacts
+
+###
+POST http://localhost:8100/contacts
+Content-Type: application/json
+
+{
+  "name": "Fake",
+  "address": { "street": "FakeStreet 5", "postalCode": "1013"}
+}
+
+###
+POST http://localhost:8100/contacts
+Content-Type: application/json
+
+{
+  "name": "Fake21",
+  "address": { "street": "JumpStreet 21", "postalCode": "4711"}
+}
+
+###
+POST http://localhost:8100/contacts
+Content-Type: application/json
+
+{
+  "name": "Fake21",
+  "address": { "street": "JumpStreet 21", "postalCode": "47110"}
+}
+
+###
+POST http://localhost:8100/contacts
+Content-Type: application/json
+
+{
+  "name": "Fake21",
+  "address": { "street": "JumpStreet 21", "postalCode": "a47"}
+}
+
+###
+GET http://localhost:8100/contacts/postalcodes/1013
