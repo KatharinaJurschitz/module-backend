@@ -1,0 +1,17 @@
+###
+POST http://localhost:9004/patients
+Content-Type: application/json
+
+{
+  "uuid": "uuid1",
+  "name": "Thomas",
+  "symptoms": "headache",
+  "diagnosis": "sunburn",
+  "treatment": "sleep"
+}
+
+###
+GET http://localhost:9004/invoices
+
+###
+PUT http://localhost:9004/invoices/3/paid
