@@ -1,0 +1,10 @@
+###
+GET http://localhost:8200/
+
+###
+GET http://localhost:8200/room
+Authorization: Basic wronguser wrongpassword
+
+###
+GET http://localhost:8200/room
+Authorization: Basic MadameD boywithapple

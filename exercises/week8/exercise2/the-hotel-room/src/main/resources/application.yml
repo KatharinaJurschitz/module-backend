@@ -1,0 +1,11 @@
+server:
+  port: 8200
+
+hotel:
+  customer:
+    username: MadameD
+    password: boywithapple
+    authorities: ROLE_CUSTOMER
+  message:
+    all: Welcome to the hotel
+    private: Welcome to your room

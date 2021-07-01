@@ -1,0 +1,34 @@
+###
+GET http://localhost:9000/
+
+###
+GET http://localhost:9000/languages
+Authorization: Basic wronguser wrongpassword
+
+###
+GET http://localhost:9000/languages/german
+Authorization: Basic wronguser wrongpassword
+
+###
+GET http://localhost:9000/languages/english
+Authorization: Basic wronguser wrongpassword
+
+###
+GET http://localhost:9000/languages/interactions
+Authorization: Basic wronguser wrongpassword
+
+###
+GET http://localhost:9000/languages
+Authorization: Basic michael geheim
+
+###
+GET http://localhost:9000/languages/german
+Authorization: Basic michael geheim
+
+###
+GET http://localhost:9000/languages/english
+Authorization: Basic stacey secret
+
+###
+GET http://localhost:9000/interactions
+Authorization: Basic admin admin

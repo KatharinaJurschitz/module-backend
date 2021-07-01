@@ -1,0 +1,7 @@
+###
+GET http://localhost:8080
+Authorization: Basic wronguser wrongpassword
+
+###
+GET http://localhost:8080
+Authorization: Basic spaceballs 12345

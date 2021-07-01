@@ -1,0 +1,20 @@
+###
+POST http://localhost:9001/polo
+Authorization: Basic marcopolo marcopolo
+Content-Type: text/plain
+
+something
+
+###
+POST http://localhost:9001/polo
+Authorization: Basic marcopolo marcopolo
+Content-Type: text/plain
+
+marco
+
+###
+POST http://localhost:9001/polo
+Authorization: Basic marcopolo marcopolo
+Content-Type: text/plain
+
+Marco
