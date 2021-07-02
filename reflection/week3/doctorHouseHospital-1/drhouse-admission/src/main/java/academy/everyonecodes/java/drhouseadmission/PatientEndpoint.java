@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class PatientEndpoint {
-    private Admission admission;
+    private final Admission admission;
 
     public PatientEndpoint(Admission admission) {
         this.admission = admission;
     }
 
     @PostMapping("/patients")
-    Patient post(@RequestBody Patient patient) {
-        admission.admit(patient);
-        return patient;
+    //@Secured("ROLE_USER")
+    public Patient post(@RequestBody Patient patient) {
+        return admission.admit(patient);
     }
 }

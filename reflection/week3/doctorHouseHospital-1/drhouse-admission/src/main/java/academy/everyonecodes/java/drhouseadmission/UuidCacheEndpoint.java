@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 import java.util.HashMap;
 import java.util.UUID;
 
@@ -17,11 +18,13 @@ public class UuidCacheEndpoint {
     }
 
     @GetMapping
+    //@Secured("ROLE_USER")
     HashMap<String, UUID> get() {
         return provider.getCacheSnapshot();
     }
 
     @GetMapping("/{patientName}")
+   // @Secured("ROLE_USER")
     UUID getUUID(@PathVariable String patientName) {
         if (provider.findUUID(patientName).isPresent()) {
             return  provider.findUUID(patientName).get();

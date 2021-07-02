@@ -12,6 +12,8 @@ Content-Type: application/json
 
 ###
 GET http://localhost:9004/invoices
+Authorization: Basic julia secret123
 
 ###
 PUT http://localhost:9004/invoices/3/paid
+Authorization: Basic walter secret321

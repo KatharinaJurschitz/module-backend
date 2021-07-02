@@ -1,8 +1,10 @@
 ###
 GET localhost:9001/uuids
+Authorization: Basic drhousehospital drhousehospital
 
 ###
 POST localhost:9001/patients
+Authorization: Basic drhousehospital drhousehospital
 Content-Type: application/json
 
 {
@@ -21,6 +23,7 @@ Content-Type: application/json
 
 ###
 POST localhost:9001/patients
+Authorization: Basic drhousehospital drhousehospital
 Content-Type: application/json
 
 {
@@ -29,4 +32,5 @@ Content-Type: application/json
 }
 
 ###
-GET localhost:9001/uuids
+GET localhost:9001/uuids/Peter
+Authorization: Basic drhousehospital drhousehospital
