@@ -1,0 +1,27 @@
+###
+POST http://localhost:9200/drivers
+Authorization: Basic uberadmin uberadmin
+Content-Type: application/json
+
+{
+  "name": "Tom",
+  "car": "tut tut"
+}
+
+###
+GET http://localhost:9200/drivers
+Authorization: Basic uberadmin uberadmin
+
+###
+POST http://localhost:9200/drivers/1/rides
+Authorization: Basic uberapp uberapp
+Content-Type: application/json
+
+{
+  "driver": {
+    "name": "Tom",
+    "car": "tut tut"
+  },
+  "distance": 6.66,
+  "price": 10.13
+}

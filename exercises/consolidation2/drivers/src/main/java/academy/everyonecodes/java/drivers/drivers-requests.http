@@ -1,0 +1,21 @@
+###
+POST http://localhost:9100/drivers
+Content-Type: application/json
+
+{
+  "username": "lisa",
+  "password": "123",
+  "car": "brumm brumm"
+}
+
+###
+GET http://localhost:9100/drivers/60e5bc57a4d756351e8ae47b
+Authorization: Basic lisa 123
+
+###
+PUT http://localhost:9100/drivers/60e5bc57a4d756351e8ae47b/available
+Authorization: Basic lisa 123
+
+###
+PUT http://localhost:9100/drivers/60e5bc57a4d756351e8ae47b/unavailable
+Authorization: Basic lisa 123
