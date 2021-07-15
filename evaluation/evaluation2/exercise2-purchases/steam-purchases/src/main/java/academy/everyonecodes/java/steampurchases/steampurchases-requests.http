@@ -1,0 +1,16 @@
+###
+GET http://localhost:9200/games
+
+###
+POST http://localhost:9200/purchases
+Authorization: Basic steamapp steamapp
+Content-Type: application/json
+
+{
+  "user": "username",
+  "game": "gameName"
+}
+
+###
+GET http://localhost:9200/users
+Authorization: Basic steamadmin steamadmin

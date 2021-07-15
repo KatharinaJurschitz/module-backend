@@ -1,0 +1,15 @@
+server:
+  port: 9100
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/steam-users
+users:
+  authorities: ROLE_USER
+login:
+  message: Login successful
+steam:
+  steamUsers:
+    - username: steamapp
+      password: steamapp
+      authorities: ROLE_APP

@@ -1,0 +1,8 @@
+server:
+  port: 9100
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/steam-users
+login:
+  message: test

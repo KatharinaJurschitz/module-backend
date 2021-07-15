@@ -1,0 +1,13 @@
+###
+POST http://localhost:9100/users
+Authorization: Basic steamapp steamapp
+Content-Type: application/json
+
+{
+  "username": "Tom",
+  "password": "tom"
+}
+
+###
+POST http://localhost:9100/login
+Authorization: Basic Tom tom
